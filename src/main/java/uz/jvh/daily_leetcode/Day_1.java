@@ -5,8 +5,9 @@ import java.util.Arrays;
 public class Day_1 {
 
     /** 8-AVGUST 2025-YIL.
-     Array : 4.
-     Given two sorted arrays nums1 and nums2 of size m and n respectively,
+     * Type=Hard ,
+     Array Nomer 4 ;
+       Given two sorted arrays nums1 and nums2 of size m and n respectively,
      return the median of the two sorted arrays.
      The overall run time complexity should be O(log (m+n)). **/
     public static void day1(){
