@@ -2,11 +2,11 @@ package uz.jvh.daily_leetcode;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
 import static uz.jvh.daily_leetcode.Day_1.day1;
 import static uz.jvh.daily_leetcode.Day_2.day_2;
 import static uz.jvh.daily_leetcode.Day_4.day_4;
 import static uz.jvh.daily_leetcode.Day_6.day_6;
+import static uz.jvh.daily_leetcode.Day_8.day_8;
 
 @SpringBootApplication
 public class DailyLeetCodeApplication {
@@ -16,7 +16,8 @@ public class DailyLeetCodeApplication {
 		// day1();
 		// day_2();
 		// day_4();
-		day_6();
+		// day_6();
+		   day_8();
 	}
 
 }
