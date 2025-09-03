@@ -8,7 +8,7 @@ public class Day_9 {
 
 
     public static void day_9(){
-        int[] score = {10,3,8,9,4};
+        int[] score = {10,3,8,19,4};
         String[] answer = new String[score.length];
 
         for(int place = 1 ; place <= score.length ; place++){
@@ -20,15 +20,20 @@ public class Day_9 {
                 }
             }
             /// aynan o'sha indexsiga medalni joylaymiz
-            if(place == 1)answer[maxIndex] = "Gold Medal";
-            else if(place == 2)answer[maxIndex] = "Silver Medal";
-            else if(place == 3)answer[maxIndex] = "Bronze Medal";
-            else answer[maxIndex] = String.valueOf(score[maxIndex]);
-
+            if(place == 1){
+                answer[maxIndex] = "Gold Medal";
+            }else if(place == 2){
+                answer[maxIndex] = "Silver Medal";
+            }else if(place == 3){
+                answer[maxIndex] = "Bronze Medal";
+            }else{
+                answer[maxIndex] = String.valueOf(score[maxIndex]);
+            }
             ///  takrorlanmasligi uchun -1 ga tengash
             score[maxIndex] = -1;
         }
-        /// shunchaki javobni ekrangga chiqaryapman
+
+        /// shunchaki javobni ekrangga chiqaryapman xolos
         for(int i = 0 ; i < answer.length ; i++){
             System.out.println(answer[i]);
         }
