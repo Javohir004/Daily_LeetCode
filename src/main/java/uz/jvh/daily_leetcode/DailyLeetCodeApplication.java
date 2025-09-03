@@ -7,6 +7,7 @@ import static uz.jvh.daily_leetcode.Day_2.day_2;
 import static uz.jvh.daily_leetcode.Day_4.day_4;
 import static uz.jvh.daily_leetcode.Day_6.day_6;
 import static uz.jvh.daily_leetcode.Day_8.day_8;
+import static uz.jvh.daily_leetcode.Day_9.day_9;
 
 @SpringBootApplication
 public class DailyLeetCodeApplication {
@@ -17,7 +18,8 @@ public class DailyLeetCodeApplication {
 		// day_2();
 		// day_4();
 		// day_6();
-		   day_8();
+		// day_8();
+		day_9();
 	}
 
 }
