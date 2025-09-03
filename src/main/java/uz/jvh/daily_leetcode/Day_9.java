@@ -19,7 +19,7 @@ public class Day_9 {
                     maxIndex = i;
                 }
             }
-            /// aynan o'sha index siga joylaymiz
+            /// aynan o'sha indexsiga medalni joylaymiz
             if(place == 1)answer[maxIndex] = "Gold Medal";
             else if(place == 2)answer[maxIndex] = "Silver Medal";
             else if(place == 3)answer[maxIndex] = "Bronze Medal";
