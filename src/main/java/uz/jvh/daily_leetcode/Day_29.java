@@ -19,7 +19,9 @@ public class Day_29 {
     //   * sum == target bo‘lsa → to‘g‘ridan-to‘g‘ri shu summani qaytaradi.
     //4. Eng yaqin yig‘indi closestSum sifatida qaytadi.
 
+
     public static void day_29() {
+
         int[] nums = {-1, 2, 1, -4};
         int target = 1;
         Arrays.sort(nums);

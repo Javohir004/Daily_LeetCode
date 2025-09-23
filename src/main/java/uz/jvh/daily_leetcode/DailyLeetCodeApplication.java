@@ -21,8 +21,7 @@ public class DailyLeetCodeApplication {
 		// day_6();
 		// day_8();
 		// day_9();
-
-		day_29();
+		   day_29();
 	}
 
 }
