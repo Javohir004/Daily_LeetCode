@@ -6,7 +6,7 @@ Repository containing my daily solutions to LeetCode problems, implemented in **
 
 ## 🛠️ Tech Stack & Tools
 
-* **Language:** Java 17+
+* **Language:** Java 21+
 * **Framework:** Spring Boot (for daily runner automation)
 * **IDE:** IntelliJ IDEA
 * **Platform:** [LeetCode Profile](https://leetcode.com/u/VoidCode12/)
