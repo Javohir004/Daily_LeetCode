@@ -9,7 +9,7 @@ Repository containing my daily solutions to LeetCode problems, implemented in **
 * **Language:** Java 17+
 * **Framework:** Spring Boot (for daily runner automation)
 * **IDE:** IntelliJ IDEA
-* **Platform:** [LeetCode Profile](https://leetcode.com/u/Walker_004/)
+* **Platform:** [LeetCode Profile](https://leetcode.com/u/VoidCode12/)
 
 ---
 
