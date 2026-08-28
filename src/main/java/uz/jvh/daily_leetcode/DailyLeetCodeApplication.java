@@ -8,7 +8,8 @@ public class DailyLeetCodeApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DailyLeetCodeApplication.class, args);
-		Day_1.day1();
+//		Day_1.day1();
+		System.out.println(Day_2.day2());
 	}
 
 }
